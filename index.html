@@ -11,7 +11,7 @@
         <title>Alex Antonich's Portfolio</title>
 
         <script src="https://kit.fontawesome.com/ebebe56727.js" crossorigin="anonymous"></script>
-        <link rel="shortcut icon" href="./img/1200px-Oakland_Golden_Grizzlies_logo.svg.png" type="image/png">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
@@ -19,11 +19,11 @@
         <header id="pageheader">
             <h1>Alex Antonich's Portfolio Website</h1>
             <nav>
-                <ul>
-                    <li><a href="./index.html"><i class="fas fa-user"> Homepage</i></a></li>
-                    <li><a href="./html/my_resume.html"><i class="fas fa-file-alt"> My resume</i></a></li>
-                    <li><a href="./html/my_fun_facts.html"><i class="fas fa-theater-masks"> Fun facts about me</i></a></li>
-                </ul>
+                <nav class="nav_bar">
+                    <a href="./index.html"><i class="fas fa-user link"> Homepage</i></a>
+                    <a href="./html/my_resume.html"><i class="fas fa-file-alt link"> My resume</i></a>
+                    <a href="./html/my_fun_facts.html"><i class="fas fa-theater-masks link"> Fun facts about me</i></a>
+                </nav>
             </nav>
         </header>
  
@@ -43,17 +43,21 @@
             </article>
 
             <article>
-                <label for="credits">Credits until Graduation</label>
-                <progress id="credits" max="128" value="64"> 66% </progress>
+                <div class="center">
+                    <label for="credits">Credits until Graduation</label>
+                    <progress id="credits" max="128" value="64"> 66% </progress>
+                </div>
             </article>
         </section>
 
         <hr>
         <footer id="page_footer">
-            <p>Contact information:</p>
-            <i class="fas fa-address-book"> Alex Antonich, 2021</i><br>
-            <a href="mailto:antonich@oakland.edu"><i class="fas fa-envelope"> antonich@oakland.edu</i><br></a>
-            <a href="https://github.com/AlexOakland1" aria-label="Github"><i class="fab fa-github fa-2x"></i></a>
+            <div class="center">
+                <p>Contact information:</p>
+                <i class="fas fa-address-book link"> Alex Antonich, 2021</i><br>
+                <a href="mailto:antonich@oakland.edu"><i class="fas fa-envelope link"> antonich@oakland.edu</i><br></a>
+                <a href="mailto:antonich@oakland.edu"><i class="fas fa-laptop-code link"> Github</i></a>
+            </div>
         </footer>
     </body>
 </html> 

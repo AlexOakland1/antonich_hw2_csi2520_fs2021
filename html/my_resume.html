@@ -12,6 +12,7 @@
 
         <script src="https://kit.fontawesome.com/ebebe56727.js" crossorigin="anonymous"></script>
         <link rel="shortcut icon" href="/antonich_hw2_csi2520_fs2021/img/1200px-Oakland_Golden_Grizzlies_logo.svg.png" type="image/png">
+        <link rel="stylesheet" href="../css/style.css">
     </head>
 
     <body>
@@ -19,35 +20,37 @@
         <header id="pageheader">
             <h1>Alex Antonich - Resume</h1>
             <nav>
-                <ul>
-                    <li><a href="../index.html"><i class="fas fa-user"> Homepage</i></a></li>
-                    <li><a href="../html/my_resume.html"><i class="fas fa-file-alt"> My resume</i></a></li>
-                    <li><a href="../html/my_fun_facts.html"><i class="fas fa-theater-masks"> Fun facts about me</i></a></li>
-                </ul>
+                <nav class="nav_bar">
+                    <a href="../index.html"><i class="fas fa-user link"> Homepage</i></a>
+                    <a href="../html/my_resume.html"><i class="fas fa-file-alt link"> My resume</i></a>
+                    <a href="../html/my_fun_facts.html"><i class="fas fa-theater-masks link"> Fun facts about me</i></a>
+                </nav>
             </nav>
-            <h2><i class="fas fa-id-card"> Contact Information</i></h2>
-            <h3>Alex Antonich</h3>
-            <div>13701 Winona Drive, Sterling Heights, MI 48312</div>
-            <div>(248) 961-8431</div>
-            <div>antonich@oakland.edu</div>
-            <br>
         </header>
  
         <section>
             <article>
-                <h2><i class="fas fa-map-signs"> Objective</i></h2>
+                <h2 class="header"><i class="fas fa-id-card"> Contact Information</i></h2>
+                <h3>Alex Antonich</h3>
+                <div>13701 Winona Drive, Sterling Heights, MI 48312</div>
+                <div>(248) 961-8431</div>
+                <div>antonich@oakland.edu</div>
+                <br>
+            </article>
+            <article>
+                <h2 class="header"><i class="fas fa-map-signs"> Objective</i></h2>
                 <p>Seeking an internship for Summer 2022 as a systems administrator.</p>
                 <br>
             </article>
 
             <article>
-                <h2><i class="fas fa-user-tie"> Professional Experience</i></h2>
+                <h2 class="header"><i class="fas fa-user-tie"> Professional Experience</i></h2>
                 <h3>March 2020 -- Present, Flyer Creator, Family Karate Academy, Shelby Township, MI</h3>
                 <p>I create and print flyers for the karate studio to promote events and class prices.</p>
             </article>
 
             <article>
-                <h2><i class="fas fa-university"> Educational Experiences</i></h2>
+                <h2 class="header"><i class="fas fa-university"> Educational Experiences</i></h2>
                 <table id="html_table education" border="1">
                     <tr>
                         <th>Start -- End</th>
@@ -65,17 +68,19 @@
             </article>
             
             <article>
-                <h2><i class="fas fa-dice"> Extracurricular Interests and Hobbies</i></h2>
+                <h2 class="header"><i class="fas fa-dice"> Extracurricular Interests and Hobbies</i></h2>
                 <p>I have a black belt in Kickboxing Karate, and I enjoy reading, folklore, and video game modding in my free time.</p>
             </article>
         </section>
 
         <hr>
         <footer id="page_footer">
-            <p>Contact information:</p>
-            <i class="fas fa-address-book"> Alex Antonich, 2021</i><br>
-            <a href="mailto:antonich@oakland.edu"><i class="fas fa-envelope"> antonich@oakland.edu</i><br></a>
-            <a href="https://github.com/AlexOakland1" aria-label="Github"><i class="fab fa-github fa-2x"></i></a>
+            <div class="center">
+                <p>Contact information:</p>
+                <i class="fas fa-address-book link"> Alex Antonich, 2021</i><br>
+                <a href="mailto:antonich@oakland.edu"><i class="fas fa-envelope link"> antonich@oakland.edu</i><br></a>
+                <a href="mailto:antonich@oakland.edu"><i class="fas fa-laptop-code link"> Github</i></a>
+            </div>
         </footer>
     </body>
 </html> 
