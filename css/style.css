@@ -48,6 +48,54 @@ br{
     background-color: rgb(153, 255, 0);
 }
 
+button, .button{
+    border: 2px;
+    border-style: solid;
+    background-color: rgb(0, 0, 0, 0);
+    color: rgb(153, 255, 0);
+    display: block;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comment_bar{
+    border: 2px;
+    border-style: dashed;
+    background-color: rgb(0, 0, 0, 0.2);
+    color: rgb(153, 255, 0);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.comment_container{
+    border: 2px;
+    border-style: dashed;
+    background-color: rgb(0, 0, 0, 0);
+    color: rgb(153, 255, 0);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.comment{
+    border: 2px;
+    border-style: dashed;
+    margin: 1%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.invis{
+    border: 0px;
+}
+
 /* styling the nav bar */
 .nav_bar{
     width: 70%;
@@ -107,6 +155,10 @@ a {
 .header{
     font-family: "Terminus (TTF)", 'Courier New', Courier, monospace, "Font Awesome 5 Free"; 
     src: url(../fonts/TerminusTTF-4.49.1.ttf)
+}
+
+.container{
+    border: 0px;
 }
 
 /* try yourself -- add pseudo class elements like hover and focus */
