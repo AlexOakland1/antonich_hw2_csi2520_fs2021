@@ -10,6 +10,8 @@
 
         <title>Alex Antonich's Portfolio</title>
 
+        <script src="./js/picture.js" defer></script>
+        <script src="./js/color.js" defer></script>
         <script src="https://kit.fontawesome.com/ebebe56727.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -29,8 +31,10 @@
         </header>
  
         <section>
-            <article>
-                <img src="./img/IMG_0085.JPG" width=25% alt="Alex Antonich" title="Alex Antonich" class="medium">
+            <article id = "container">
+
+                <!--<img src="./img/IMG_0085.JPG" width=25% alt="Alex Antonich" title="Alex Antonich" class="medium">-->
+                <button id="commentButton">Show Picture</button>
                 <p>“Don’t part with your illusions. When they are gone, you may still exist, but you have ceased to live.” - Mark Twain</p>
                 <br>
             </article>
@@ -48,6 +52,10 @@
                     <label for="credits">Credits until Graduation</label>
                     <progress id="credits" max="128" value="64"> 66% </progress>
                 </div>
+            </article>
+
+            <article>
+                <button id="colorButton">Change Color</button>
             </article>
         </section>
 
